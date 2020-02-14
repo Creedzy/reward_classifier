@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/atanasatanasov/Miniconda/miniconda3/envs/mubot/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/Users/atanasatanasov/Miniconda/miniconda3/envs/mubot/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/Users/atanasatanasov/Code/Python/MuBot/reward_classifier/IIC/code/scripts/cluster/cluster_sobel_twohead.py", line 4, in <module>
+    from code.utils.cluster.data import cluster_twohead_create_dataloaders
+  File "/Users/atanasatanasov/Code/Python/MuBot/reward_classifier/IIC/code/utils/cluster/data.py", line 6, in <module>
+    from code.datasets.clustering.mu_dataset import _MU
+  File "/Users/atanasatanasov/Code/Python/MuBot/reward_classifier/IIC/code/datasets/__init__.py", line 1, in <module>
+    from clustering import *
+ModuleNotFoundError: No module named 'clustering'
