@@ -8,7 +8,7 @@ chardet==3.0.4
 Click==7.0
 cloudpickle==1.2.2
 # Editable Git install with no remote (custom-gym==0.1)
--e /Users/atanasatanasov/Code/Python/MuBot/custom_gym
+#-e /Users/atanasatanasov/Code/Python/MuBot/custom_gym
 cycler==0.10.0
 dill==0.3.1.1
 future==0.18.2
